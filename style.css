@@ -1,9 +1,13 @@
-body {
-    color: #444;
-    font-family: Arial, sans-serif;
+.table{
+  padding-top: 20px;
+  height: 300px;
+  border: 2px solid;
+  overflow:auto;
 }
 
-.container {
-    width: 100%;
-    max-width: 960px;
+#map{
+  padding-top: 20px;
+  padding-bottom: 200px;
+  height:500px ;
+  width: 600px;
 }
