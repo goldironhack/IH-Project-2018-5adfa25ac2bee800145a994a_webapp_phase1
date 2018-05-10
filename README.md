@@ -24,7 +24,7 @@ Finding the best district for you to live has never been this easy!
 1.  [**Y**/N] Basic Map with specific location (your map is located in a meaningful place, city of west lafayette for example)
 **Yes:** At the moment the webpage is loaded, the map is settle down at the NYU Stern.
 
-3.  [Y/**N**] [describe] Any cover on the map (for example, cloud cover to show the weather effect)
+2.  [Y/**N**] [describe] Any cover on the map (for example, cloud cover to show the weather effect)
 **No:** For the moment, there's not any cover on the map. Just a marker located on the NYU Stern.
 
 ## Data Visualization

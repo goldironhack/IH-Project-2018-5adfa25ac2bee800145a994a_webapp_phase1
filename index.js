@@ -1,4 +1,3 @@
-
 const N_NAMES_URL ="https://data.cityofnewyork.us/api/views/xyye-rtrs/rows.json?accessType=DOWNLOAD";
 const D_GEOSHAPES_URL ="http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/nycd/FeatureServer/0/query?where=1=1&outFields=*&outSR=4326&f=geojson";
 const CRIME_URL ="https://data.cityofnewyork.us/api/views/qgea-i56i/rows.json";
@@ -24,6 +23,8 @@ function initMap(){
     position: initialCoordenates,
     map: map
   });
+
+  map.data.loadGeoJson(D_GEOSHAPES_URL);
 
 }
 
@@ -166,3 +167,4 @@ $("document").ready(function () {
   $("#getCrimeData").on("click", getCrimes)
   $("#getGeoData").on("click", getGeoShapesData)
 });
+
